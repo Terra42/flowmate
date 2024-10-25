@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.h2{
+  @apply text-2xl font-semibold;
+}
+
+.button {
+  @apply bg-primary-60 p-2 rounded-xl mr-2 last-of-type:mr-0;
+}
+
+.button-text{
+  @apply bg-accent border-2 border-solid border-primary text-primary font-semibold rounded-xl py-2 px-4 uppercase text-xl hover:bg-primary hover:text-accent hover:border-secondary;
+}
+
+.button-text:hover svg {
+  @apply fill-accent;
+}
+
+.button-text-reversed{
+  @apply bg-primary border-2 border-solid border-accent rounded-xl py-2 px-4 uppercase text-xl hover:bg-accent hover:text-primary hover:font-semibold hover:border-secondary;
+}
+
+.button-text-reversed:hover svg {
+  @apply fill-primary;
+}
+
+.icon-text{
+  @apply h-8 w-8 fill-primary text-secondary;
+}
+
+.icon {
+  @apply h-8 w-8 fill-secondary hover:fill-accent;
+}
+
+.icon-active {
+  @apply fill-accent;
+}
+
+.theme-picker {
+  @apply border-2 border-solid rounded-lg p-3 text-sm w-28 font-semibold;
+}
+
+.theme-picker-active {
+  @apply bg-accent text-primary border-primary-60;
+}
+
+.theme-picker-inactive {
+  @apply bg-primary-60 text-accent border-accent hover:bg-accent hover:text-primary hover:border-primary-60; 
+}
+
+.input{
+  @apply text-primary border-2 border-solid border-primary-60 rounded-xl p-2 w-full;
+}
