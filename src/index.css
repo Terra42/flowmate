@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.app-container {
+  min-height: calc(var(--vh, 1vh) * 100); /* Dynamically fills the viewport */
+}
+
 .h2{
   @apply text-2xl font-semibold md:text-3xl lg:text-4xl;
 }

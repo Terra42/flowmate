@@ -23,7 +23,7 @@ const App = () => {
   };
 
   return (
-    <div className={`font-sans ${theme} bg-primary-95 text-secondary min-h-[calc(var(--vh,1vh)*100)]`}>
+    <div className={`font-sans ${theme} bg-primary-95 text-secondary app-container min-h-[calc(var(--vh,1vh)*100)]`}>
      <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
