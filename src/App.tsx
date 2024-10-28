@@ -6,7 +6,6 @@ import CreateSession from "./views/CreateSession";
 import HomePage from "./views/HomePage";
 import Offboarding from "./views/Offboarding";
 import NotFound from "./views/NotFound";
-import useViewportHeight from './hooks/useViewportHeight';
 
 const App = () => {
   const [theme, setTheme] = useState(() => {
@@ -15,15 +14,13 @@ const App = () => {
   const [goal, setGoal] = useState<string>('');
   const [time, setTime] = useState<number>(0);
 
-  useViewportHeight();
-
   const handleFormSubmit = (submittedGoal: string, submittedTime: number) => {
     setGoal(submittedGoal);
     setTime(submittedTime);
   };
 
   return (
-    <div className={`font-sans ${theme} bg-primary-95 text-secondary app-container min-h-[calc(var(--vh,1vh)*100)]`}>
+    <div className={`font-sans ${theme} bg-primary-95 text-secondary h-screen`}>
      <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
