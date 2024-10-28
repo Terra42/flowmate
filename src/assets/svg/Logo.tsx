@@ -6,7 +6,7 @@ const Logo = () => {
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 500.000000 500.000000"
         preserveAspectRatio="xMidYMid meet"
-        className="h-16 w-16 fill-accent"
+        className="h-16 w-16 fill-accent md:h-24 md:w-24 lg:h-32 lg:w-32"
       >
         <g
           transform="translate(0.000000,500.000000) scale(0.100000,-0.100000)"

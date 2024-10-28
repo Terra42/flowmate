@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .h2{
-  @apply text-2xl font-semibold;
+  @apply text-2xl font-semibold md:text-3xl lg:text-4xl;
 }
 
 .button {
@@ -13,7 +13,7 @@
 }
 
 .button-text{
-  @apply bg-accent border-2 border-solid border-primary text-primary font-semibold rounded-xl py-2 px-4 uppercase text-xl hover:bg-primary hover:text-accent hover:border-secondary;
+  @apply bg-accent border-2 border-solid border-primary text-primary font-semibold rounded-xl py-2 px-4 uppercase text-xl md:py-4 md:px-8 md:text-2xl hover:bg-primary hover:text-accent hover:border-secondary;
 }
 
 .button-text:hover svg {

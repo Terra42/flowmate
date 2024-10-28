@@ -117,7 +117,7 @@ const TimeDialInput: React.FC<TimeDialInputProps> = ({
             r="44"
             fill="none"
             strokeWidth="8"
-            className="stroke-primary"
+            className="stroke-bg-semi"
           />
           <circle
             cx="50"

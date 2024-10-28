@@ -19,7 +19,7 @@ export default {
         'primary-95': 'rgb(12,10,9, 0.95)',
         'primary-60': 'rgb(12,10,9, 0.60)',
         'bg-semi': 'rgb(12,10,9, 0.7)',
-        'secondary': 'rgb(250,250,249)',
+        'secondary': 'rgb(245,245,245)',
         'accent': 'rgb(242,204,65)',
         'accent-semi': 'rgb(242,204,65, 0.85)',
       },
@@ -28,7 +28,7 @@ export default {
         'primary-95': 'rgb(51, 24, 6, 0.95)',
         'primary-60': 'rgb(51, 24, 6, 0.60)',
         'bg-semi': 'rgb(79, 46, 23, 0.7)',
-        'secondary': 'rgb(254, 252, 230)',
+        'secondary': 'rgb(245,245,245)',
         'accent': 'rgb(203, 118, 30)',
        },
        lake: { 
@@ -36,7 +36,7 @@ export default {
         'primary-95': 'rgb(7, 20, 53, 0.95)',
         'primary-60': 'rgb(7, 20, 53, 0.60)',
         'bg-semi': 'rgb(6,19,55, 0.7)',
-        'secondary': 'rgb(239, 216, 237)',
+        'secondary': 'rgb(245,245,245)',
         'accent': 'rgb(131,160,215)',
        },
        library: { 
@@ -44,7 +44,7 @@ export default {
         'primary-95': 'rgb(6, 1, 0, 0.95)',
         'primary-60': 'rgb(6, 1, 0, 0.60)',
         'bg-semi': 'rgb(26, 30, 38, 0.7)',
-        'secondary': 'rgb(249, 249, 230)',
+        'secondary': 'rgb(245,245,245)',
         'accent': 'rgb(249, 219, 81)',
        },
        nature: { 
@@ -52,7 +52,7 @@ export default {
         'primary-95': 'rgb(21, 40, 32, 0.95)',
         'primary-60': 'rgb(21, 40, 32, 0.60)',
         'bg-semi': 'rgb(26, 74, 76, 0.7)',
-        'secondary': 'rgb(230,230,236)',
+        'secondary': 'rgb(245,245,245)',
         'accent': 'rgb(145,232,250)',
        },
        city: { 
@@ -60,7 +60,7 @@ export default {
         'primary-95': 'rgb(56,40,96, 0.95)',
         'primary-60': 'rgb(56,40,96, 0.60)',
         'bg-semi': 'rgb(52,49,129, 0.7)',
-        'secondary': 'rgb(201,208,236)',
+        'secondary': 'rgb(245,245,245)',
         'accent': 'rgb(195,147,201)',
        },
        japan: { 
@@ -68,7 +68,7 @@ export default {
         'primary-95': 'rgb(79,36,39, 0.95)',
         'primary-60': 'rgb(79,36,39, 0.60)',
         'bg-semi': 'rgb(144,49,46, 0.7)',
-        'secondary': 'rgb(254,250,233)',
+        'secondary': 'rgb(245,245,245)',
         'accent': 'rgb(255,236,147)',
        },
        halloween: { 
@@ -76,7 +76,7 @@ export default {
         'primary-95': 'rgb(14,27,9, 0.95)',
         'primary-60': 'rgb(14,27,9, 0.60)',
         'bg-semi': 'rgb(23,47,10, 0.7)',
-        'secondary': 'rgb(250,250,236)',
+        'secondary': 'rgb(245,245,245)',
         'accent': 'rgb(236,110,24)',
        },
     }),
