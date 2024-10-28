@@ -6,6 +6,7 @@ import Timer from "../components/Timer";
 import Goal from "../components/Goal";
 import { playAudioWithFadeIn, pauseAudioWithFadeOut } from "../utils/audio";
 import PauseModal from "@/components/PauseModal";
+import Footer from "@/components/Footer";
 
 interface FlowSessionProps {
   theme: string;
@@ -100,6 +101,9 @@ const FlowSession:React.FC<FlowSessionProps> = ({theme, setTheme, goal, time}) =
           </>
          : 
          <PauseModal/>}
+         <div className="absolute bottom-8 w-full">
+          <Footer/>
+         </div>
       </div>
     </div>
   );

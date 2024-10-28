@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { minutesToSeconds } from "../utils/time";
 import IconButton from "@/elements/IconButton";
 import Work from "@/assets/svg/Work";
+import Footer from "@/components/Footer";
 
 interface CreateSessionProps {
   onSubmit: (goal: string, time: number) => void;
@@ -74,6 +75,9 @@ const CreateSession: React.FC<CreateSessionProps> = ({ onSubmit }) => {
           </div>
         </div>
       </form>
+      <div className="w-full my-8">
+          <Footer/>
+         </div>
     </div>
   );
 };
