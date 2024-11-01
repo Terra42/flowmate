@@ -96,7 +96,7 @@ const Timer: React.FC<TimerProps> = ({ time, start, onTimerEnd, onTimerPaused, o
   return (
     <>
       {isTimerVisible ? (
-        <div className="bg-bg-semi rounded-lg px-4 py-2 right-0 w-full flex justify-between items-center absolute bottom-24">
+        <div className="bg-bg-semi rounded-lg px-4 py-2 right-0 w-full flex justify-between items-center">
             <div>
                 <IconButton IconComponent={Hide} onClick={() => setIsTimerVisible(false)} />
                 {isPaused ? (
@@ -112,7 +112,7 @@ const Timer: React.FC<TimerProps> = ({ time, start, onTimerEnd, onTimerPaused, o
             </div>
           </div>
       ) : (
-        <div className="bg-bg-semi rounded-lg px-4 py-2 absolute left-0 bottom-24">
+        <div className="bg-bg-semi rounded-lg px-4 py-2 left-0">
             <IconButton IconComponent={Clock} onClick={handleShowClick} />
         </div>
       )}

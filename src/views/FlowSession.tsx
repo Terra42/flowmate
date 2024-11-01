@@ -97,11 +97,13 @@ const FlowSession:React.FC<FlowSessionProps> = ({theme, setTheme, goal, time}) =
         {isTimerRunning ?
         <>
           <Goal goal={goal} />
-          <Timer time={time} start={startTimer} onTimerEnd={handleTimerEnd} onTimerPaused={handleTimerPaused} onTimerStart={handleTimerStart}/>
+          <div className="w-full absolute bottom-36">
+            <Timer time={time} start={startTimer} onTimerEnd={handleTimerEnd} onTimerPaused={handleTimerPaused} onTimerStart={handleTimerStart}/>
+          </div>
           </>
          : 
          <PauseModal/>}
-         <div className="absolute bottom-8 w-full">
+         <div className="absolute bottom-20 w-full">
           <Footer/>
          </div>
       </div>
