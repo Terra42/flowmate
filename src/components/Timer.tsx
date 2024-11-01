@@ -112,7 +112,7 @@ const Timer: React.FC<TimerProps> = ({ time, start, onTimerEnd, onTimerPaused, o
             </div>
           </div>
       ) : (
-        <div className="bg-bg-semi rounded-lg px-4 py-2 absolute bottom-20 left-0">
+        <div className="bg-bg-semi rounded-lg px-4 py-2 absolute left-0 bottom-24">
             <IconButton IconComponent={Clock} onClick={handleShowClick} />
         </div>
       )}

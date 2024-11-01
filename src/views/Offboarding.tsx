@@ -38,7 +38,7 @@ const Offboarding = () => {
           isReversed={true}
         />
       </a>
-      <div className="mt-8 w-full">
+      <div className="mt-12 w-full">
         <Footer />
       </div>
     </div>
