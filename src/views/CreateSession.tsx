@@ -22,7 +22,7 @@ const CreateSession: React.FC<CreateSessionProps> = ({ onSubmit }) => {
   };
 
   return (
-    <div className="h-screen relative flex flex-col items-center p-4">
+    <div className="h-screen flex flex-col items-center p-4">
       <form
         onSubmit={handleSubmit}
         className="flex flex-col text-center z-10 sm:w-4/5"
@@ -75,7 +75,7 @@ const CreateSession: React.FC<CreateSessionProps> = ({ onSubmit }) => {
           </div>
         </div>
       </form>
-      <div className="w-10/12 absolute bottom-16">
+      <div className="w-full mt-12">
           <Footer/>
          </div>
     </div>
