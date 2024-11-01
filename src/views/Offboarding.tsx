@@ -10,7 +10,7 @@ const Offboarding = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="flex flex-col items-center py-8 px-4 text-center">
+    <div className="h-screen relative flex flex-col items-center py-8 px-4 text-center">
       <Logo />
       <h2 className="h2 mt-8">Už odcházíš?</h2>
       <p className="mt-8 mb-4">Chceš si dát pauzu nebo už končíš?</p>
@@ -38,7 +38,7 @@ const Offboarding = () => {
           isReversed={true}
         />
       </a>
-      <div className="w-full mt-20">
+      <div className="w-10/12 absolute bottom-20">
         <Footer />
       </div>
     </div>
