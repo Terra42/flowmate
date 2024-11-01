@@ -24,7 +24,7 @@ const HomePage = () => {
       <div className=" mt-10 md:mt-16">
         <Button title="Zkusím to" onClick={() => navigate("/create-session")} />
       </div>
-      <div className="absolute bottom-8 w-10/12">
+      <div className="absolute bottom-16 w-10/12">
         <Footer />
       </div>
     </div>

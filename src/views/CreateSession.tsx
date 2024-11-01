@@ -75,7 +75,7 @@ const CreateSession: React.FC<CreateSessionProps> = ({ onSubmit }) => {
           </div>
         </div>
       </form>
-      <div className="w-10/12 absolute bottom-8">
+      <div className="w-10/12 absolute bottom-16">
           <Footer/>
          </div>
     </div>
